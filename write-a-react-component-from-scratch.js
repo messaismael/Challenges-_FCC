@@ -1,0 +1,1 @@
+{"index.jsx":"// change code below this line\nclass MyComponent extends React.Component {\n    constructor(props) {\n        super (props)\n    }\n    render ( ) {\n        return (\n            <div>\n            <h1>My First React Component!</h1>\n            </div>\n        );\n    }\n}\n ReactDOM.render(<MyComponent/>, document.getElementById(\"challenge-node\"));"}
