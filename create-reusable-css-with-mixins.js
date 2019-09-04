@@ -1,1 +1,21 @@
-{"index.html":"<style type='text/sass'>\n  \n  @mixin border-radius ($radius) {\n    -webkit-border-radius: $radius;\n    -moz-border-radius: $radius;\n    -ms-border-radius: $radius;\n    border-radius: $radius;\n  }  \n  \n    div {\n      \n    }\n  #awesome {\n    width: 150px;\n    height: 150px;\n    background-color: green;\n    @include border-radius(15px);\n  }\n</style>\n\n<div id=\"awesome\"></div>\n  "}
+<style type='text/sass'>
+  
+  @mixin border-radius ($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }  
+  
+    div {
+      
+    }
+  #awesome {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    @include border-radius(15px);
+  }
+</style>
+
+<div id="awesome"></div>

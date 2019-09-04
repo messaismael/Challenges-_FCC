@@ -1,1 +1,10 @@
-{"index.jsx":"// write your code here\nconst JSX = <div>\n<h1> i am genereous</h1>\n<p> my name is ismael </p>\n<ul>\n<li> ahahaha</li>\n<li>à quoi ça sert</li>\n<li>dans le ven</li> \n</ul>\n</div>"}
+// write your code here
+const JSX = <div>
+<h1> i am genereous</h1>
+<p> my name is ismael </p>
+<ul>
+<li> ahahaha</li>
+<li>à quoi ça sert</li>
+<li>dans le ven</li> 
+</ul>
+</div>

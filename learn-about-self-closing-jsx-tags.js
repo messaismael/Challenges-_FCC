@@ -1,1 +1,9 @@
-{"index.jsx":"const JSX = (\n  <div>\n     \n    <h2>Welcome to React!</h2> <br />\n    <p>Be sure to close all tags!</p>\n    <hr />\n    \n  </div>\n);\n"}
+const JSX = (
+    <div>
+       
+      <h2>Welcome to React!</h2> <br />
+      <p>Be sure to close all tags!</p>
+      <hr />
+      
+    </div>
+  );

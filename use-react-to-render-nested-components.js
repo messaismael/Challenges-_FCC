@@ -1,1 +1,40 @@
-{"index.jsx":"const TypesOfFruit = () => {\n  return (\n    <div>\n      <h2>Fruits:</h2>\n      <ul>\n        <li>Apples</li>\n        <li>Blueberries</li>\n        <li>Strawberries</li>\n        <li>Bananas</li>\n      </ul>\n    </div>\n  );\n};\n\nconst Fruits = () => {\n  return (\n    <div>\n      { /* change code below this line */ }\n        <TypesOfFruit/>\n      { /* change code above this line */ }\n    </div>\n  );\n};\n\nclass TypesOfFood extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n\n  render() {\n    return (\n      <div>\n        <h1>Types of Food:</h1>\n        { /* change code below this line */ }\n          <Fruits/>\n        { /* change code above this line */ }\n      </div>\n    );\n  }\n};"}
+const TypesOfFruit = () => {
+    return (
+      <div>
+        <h2>Fruits:</h2>
+        <ul>
+          <li>Apples</li>
+          <li>Blueberries</li>
+          <li>Strawberries</li>
+          <li>Bananas</li>
+        </ul>
+      </div>
+    );
+  };
+  
+  const Fruits = () => {
+    return (
+      <div>
+        { /* change code below this line */ }
+          <TypesOfFruit/>
+        { /* change code above this line */ }
+      </div>
+    );
+  };
+  
+  class TypesOfFood extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+  
+    render() {
+      return (
+        <div>
+          <h1>Types of Food:</h1>
+          { /* change code below this line */ }
+            <Fruits/>
+          { /* change code above this line */ }
+        </div>
+      );
+    }
+  };

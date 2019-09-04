@@ -1,1 +1,17 @@
-{"index.html":"<style type='text/sass'>\n  .blog-post {\n    \n  h1 {\n    text-align: center;\n    color: blue;\n  }\n  p {\n    font-size: 20px;\n  }\n  }\n</style>\n\n<div class=\"blog-post\">\n  <h1>Blog Title</h1>\n  <p>This is a paragraph</p>\n</div>"}
+<style type='text/sass'>
+  .blog-post {
+    
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+  }
+</style>
+
+<div class="blog-post">
+  <h1>Blog Title</h1>
+  <p>This is a paragraph</p>
+</div>

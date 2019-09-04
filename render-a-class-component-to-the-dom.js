@@ -1,1 +1,19 @@
-{"index.jsx":"\nclass TypesOfFood extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return (\n      <div>\n        <h1>Types of Food:</h1>\n        {/* change code below this line */}\n        <Fruits />\n        <Vegetables />\n        {/* change code above this line */}\n      </div>\n    );\n  }\n};\n\n// change code below this line\nReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'))"}
+class TypesOfFood extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <div>
+          <h1>Types of Food:</h1>
+          {/* change code below this line */}
+          <Fruits />
+          <Vegetables />
+          {/* change code above this line */}
+        </div>
+      );
+    }
+  };
+  
+  // change code below this line
+  ReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'))

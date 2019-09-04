@@ -1,1 +1,25 @@
-{"index.html":"<style type='text/sass'>\n  h3{\n    text-align: center;\n  }\n  .info{\n    width: 200px;\n    border: 1px solid black;\n    margin: 0 auto;\n  }\n  .info-important {\n  @extend .info;\n  background-color: magenta;\n  }\n\n  \n  \n</style>\n<h3>Posts</h3>\n<div class=\"info-important\">\n  <p>This is an important post. It should extend the class \".info\" and have its own CSS styles.</p>\n</div>\n\n<div class=\"info\">\n  <p>This is a simple post. It has basic styling and can be extended for other uses.</p>\n</div>"}
+<style type='text/sass'>
+  h3{
+    text-align: center;
+  }
+  .info{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  .info-important {
+  @extend .info;
+  background-color: magenta;
+  }
+
+  
+  
+</style>
+<h3>Posts</h3>
+<div class="info-important">
+  <p>This is an important post. It should extend the class ".info" and have its own CSS styles.</p>
+</div>
+
+<div class="info">
+  <p>This is a simple post. It has basic styling and can be extended for other uses.</p>
+</div>

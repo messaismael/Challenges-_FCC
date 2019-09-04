@@ -1,1 +1,3 @@
-{"index.html":"// The main.scss file\n\n@import \"variables\"\n\n"}
+// The main.scss file
+
+@import "variables"

@@ -1,1 +1,26 @@
-{"index.html":"<style type='text/sass'>\n  @mixin border-stroke ($val) {\n  @if $val === light {\n  border: 1px solid black;\n  } \n  @else if $val === medium {\n  border: 3px solid black;\n  }\n  @else if $val === heavy {\n  border: 6px solid black;\n  }\n  @else {\n  border: none;\n  }\n  }\n  \n  \n  #box {\n    width: 150px;\n    height: 150px;\n    background-color: red;\n    @include border-stroke(medium);\n  }  \n</style>\n\n<div id=\"box\"></div>"}
+<style type='text/sass'>
+  @mixin border-stroke ($val) {
+  @if $val === light {
+  border: 1px solid black;
+  } 
+  @else if $val === medium {
+  border: 3px solid black;
+  }
+  @else if $val === heavy {
+  border: 6px solid black;
+  }
+  @else {
+  border: none;
+  }
+  }
+  
+  
+  #box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    @include border-stroke(medium);
+  }  
+</style>
+
+<div id="box"></div>

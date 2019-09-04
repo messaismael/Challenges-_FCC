@@ -1,1 +1,20 @@
-{"index.jsx":"const Items = (props) => {\n  return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>\n};\n\n// change code below this line\nItems.propTypes = { quantity: PropTypes.number.isRequired } \n// change code above this line\n\nItems.defaultProps = {\n  quantity: 0\n};\n\nclass ShoppingCart extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return <Items />\n  }\n};"}
+const Items = (props) => {
+    return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
+  };
+  
+  // change code below this line
+  Items.propTypes = { quantity: PropTypes.number.isRequired } 
+  // change code above this line
+  
+  Items.defaultProps = {
+    quantity: 0
+  };
+  
+  class ShoppingCart extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return <Items />
+    }
+  };

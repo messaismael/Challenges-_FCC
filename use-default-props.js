@@ -1,1 +1,9 @@
-{"index.jsx":"const ShoppingCart = (props) => {\n  return (\n    <div>\n      <h1>Shopping Cart Component</h1>\n    </div>\n  )\n};\n// change code below this line\nShoppingCart.defaultProps = { items: 0}"}
+const ShoppingCart = (props) => {
+    return (
+      <div>
+        <h1>Shopping Cart Component</h1>
+      </div>
+    )
+  };
+  // change code below this line
+  ShoppingCart.defaultProps = { items: 0}

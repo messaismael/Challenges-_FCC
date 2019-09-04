@@ -1,1 +1,24 @@
-{"index.jsx":"const ChildComponent = () => {\n  return (\n    <div>\n      <p>I am the child</p>\n    </div>\n  );\n};\n\nclass ParentComponent extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return (\n      <div>\n        <h1>I am the parent</h1>\n        { /* change code below this line */ }\n         <ChildComponent /> \n\n        { /* change code above this line */ }\n      </div>\n    );\n  }\n};"}
+const ChildComponent = () => {
+    return (
+      <div>
+        <p>I am the child</p>
+      </div>
+    );
+  };
+  
+  class ParentComponent extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <div>
+          <h1>I am the parent</h1>
+          { /* change code below this line */ }
+           <ChildComponent /> 
+  
+          { /* change code above this line */ }
+        </div>
+      );
+    }
+  };

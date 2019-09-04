@@ -1,1 +1,25 @@
-{"index.jsx":"\nconst CurrentDate = (props) => {\n  return (\n    <div>\n      { /* change code below this line */ }\n      <p>The current date is:{Date()} </p>\n      { /* change code above this line */ }\n    </div>\n  );\n};\n\nclass Calendar extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return (\n      <div>\n        <h3>What date is it?</h3>\n        { /* change code below this line */ }\n        <CurrentDate date= {Date()} />\n        { /* change code above this line */ }\n      </div>\n    );\n  }\n};"}
+const CurrentDate = (props) => {
+    return (
+      <div>
+        { /* change code below this line */ }
+        <p>The current date is:{Date()} </p>
+        { /* change code above this line */ }
+      </div>
+    );
+  };
+  
+  class Calendar extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <div>
+          <h3>What date is it?</h3>
+          { /* change code below this line */ }
+          <CurrentDate date= {Date()} />
+          { /* change code above this line */ }
+        </div>
+      );
+    }
+  };

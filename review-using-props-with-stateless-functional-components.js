@@ -1,1 +1,28 @@
-{"index.jsx":"class CampSite extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return (\n      <div>\n        <Camper/>\n      </div>\n    );\n  }\n};\n// change code below this line\nconst Camper = (props) => {\n   return (\n     <div>\n       <p>{props.name}</p>\n     </div>\n   );\n};\n\nCamper.propTypes = {\n  name: PropTypes.string.isRequired\n};\n\nCamper.defaultProps = {\n  name: 'CamperBot'\n};"}
+class CampSite extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <div>
+          <Camper/>
+        </div>
+      );
+    }
+  };
+  // change code below this line
+  const Camper = (props) => {
+     return (
+       <div>
+         <p>{props.name}</p>
+       </div>
+     );
+  };
+  
+  Camper.propTypes = {
+    name: PropTypes.string.isRequired
+  };
+  
+  Camper.defaultProps = {
+    name: 'CamperBot'
+  };

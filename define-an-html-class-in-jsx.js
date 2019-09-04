@@ -1,1 +1,5 @@
-{"index.jsx":"const JSX = (\n  <div className = \"myDiv\">\n    <h1>Add a class to this div</h1>\n  </div>\n);"}
+const JSX = (
+    <div className = "myDiv">
+      <h1>Add a class to this div</h1>
+    </div>
+  );

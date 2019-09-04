@@ -1,1 +1,33 @@
-{"index.jsx":"class Fruits extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return (\n      <div>\n        <h2>Fruits:</h2>\n        { /* change code below this line */ }\n          <NonCitrus />\n          <Citrus />\n         { /* change code above this line */ }\n      </div>\n    );\n  }\n};\n\nclass TypesOfFood extends React.Component {\n  constructor(props) {\n     super(props);\n  }\n  render() {\n    return (\n      <div>\n        <h1>Types of Food:</h1>\n        { /* change code below this line */ }\n        <Fruits />\n        { /* change code above this line */ }\n        <Vegetables />\n      </div>\n    );\n  }\n};"}
+class Fruits extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <div>
+          <h2>Fruits:</h2>
+          { /* change code below this line */ }
+            <NonCitrus />
+            <Citrus />
+           { /* change code above this line */ }
+        </div>
+      );
+    }
+  };
+  
+  class TypesOfFood extends React.Component {
+    constructor(props) {
+       super(props);
+    }
+    render() {
+      return (
+        <div>
+          <h1>Types of Food:</h1>
+          { /* change code below this line */ }
+          <Fruits />
+          { /* change code above this line */ }
+          <Vegetables />
+        </div>
+      );
+    }
+  };}

@@ -1,1 +1,17 @@
-{"index.html":"<style type='text/sass'>\n  $colors : (blue, black, red);\n\n  @each $color in $colors {\n  .#{$color}-bg {background-color: $color;}\n  }\n  \n  \n  div {\n    height: 200px;\n    width: 200px;\n  }\n</style>\n\n<div class=\"blue-bg\"></div>\n<div class=\"black-bg\"></div>\n<div class=\"red-bg\"></div>"}
+<style type='text/sass'>
+  $colors : (blue, black, red);
+
+  @each $color in $colors {
+  .#{$color}-bg {background-color: $color;}
+  }
+  
+  
+  div {
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>
